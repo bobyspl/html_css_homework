@@ -14,7 +14,6 @@ html {
 }
 
 body {
-    width: ;
     line-height: 1.5;
     font-size: 100%;
     /* font-size: 1rem; */
@@ -111,7 +110,7 @@ section.flex div h2, p {
 }
 
 .leftFloat h2 {
-    width:37%;
+    width:47%;
     border-bottom: 1px solid black;
 }
 
@@ -124,7 +123,9 @@ section.flex div h2, p {
     height: 50vw;
 }
 
-
+.siteHeader {
+    transform: translate(50px, 64px);
+}
 
 
 
