@@ -99,8 +99,8 @@ section.flex div h2, p {
     margin: 0;
 }
 .rightFloat {
-    margin-top: 10px;
-    text-align: right;
+    margin-top: 20px;
+    align-self: flex-end;
 }
 
 .leftFloat a {
