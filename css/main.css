@@ -94,14 +94,15 @@ section.flex {
     display: flex;
     flex-direction: column;
     padding: 10px;
-    font-size: 2vw;
+    font-size: 2.7vw;
 }
 section.flex div h2, p {
     margin: 0;
 }
 .rightFloat {
     margin-top: 10px;
-    text-align: right;
+    align-self: flex-end;
+    text-align: center;
 }
 
 .leftFloat a {
@@ -110,7 +111,7 @@ section.flex div h2, p {
 }
 
 .leftFloat h2 {
-    width:57%;
+    width:37%;
     border-bottom: 1px solid black;
 }
 
@@ -123,9 +124,6 @@ section.flex div h2, p {
     height: 50vw;
 }
 
-.charLink {
-    background: inherit url('pages/contact.html');
-}
 
 
 
