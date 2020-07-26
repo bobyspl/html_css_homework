@@ -52,6 +52,8 @@ p {
 }
 
 a {
+    -webkit-text-decoration: none;
+    text-decoration: none;
     text-decoration: none;
 }
 
@@ -178,11 +180,11 @@ section.flex div h2, p {
     border-radius: 30px;
     margin: 40px 20px;
     letter-spacing: 6px;
-    transform: perspective(13cm) rotateX(40deg) rotateY(20deg) rotateZ(-35deg);
+    -webkit-transform: perspective(13cm) rotateX(40deg) rotateY(20deg) rotateZ(-35deg);
 }
 
 .middleHeader h1 {
-    transform: rotateX(43deg) rotateY(20deg) rotateZ(-18deg);
+    -webkit-transform: rotateX(43deg) rotateY(20deg) rotateZ(-18deg);
     font-size: 2.5em;
 }
 
@@ -213,3 +215,11 @@ section.flex div h2, p {
 
 // Large devices (desktops, 992px and up)
 @media (min-width: 992px) { ... } */
+
+
+
+/* 
+-webkit- (Chrome, Safari, newer versions of Opera, almost all iOS browsers including Firefox for iOS; basically, any WebKit based browser)
+-moz- (Firefox)
+-o- (old pre-WebKit versions of Opera)
+-ms- (Internet Explorer and Microsoft Edge) */
