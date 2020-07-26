@@ -1,0 +1,138 @@
+/* a, abbr, address, article, aside, audio, b, blockquote, body, canvas, caption, cite, code, dd, del, details, dfn, div, dl, dt, em, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, hr, html, i, iframe, img, ins, kbd, label, legend, li, mark, menu, nav, object, ol, p, pre, q, samp, section, small, span, strong, sub, summary, sup, table, tbody, td, tfoot, th, thead, time, tr, ul, var, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+} */
+
+/* html {
+    display: block;
+} */
+
+html {
+    width: 100%;
+    border: 1px solid blue;
+}
+
+body {
+    width: ;
+    line-height: 1.5;
+    font-size: 100%;
+    /* font-size: 1rem; */
+    /* font-family: Sofia; */
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* .container {
+    width: 85%;
+    border: 1px solid blue;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.inline-block {
+    border: 1px solid red;
+    width: 300px;
+    height: 200px;
+} */
+
+/* .main {
+    box-shadow: 30px 0 40px rgba(0, 0, 0, 0.2),
+    30px 0 40px rgba(0, 0, 0, 0.2);
+} */
+
+/* Globale ! */
+.colorBlue {
+    background-color: rgb(34, 101, 169, 0.9);
+}
+
+/* The navigation bar! */
+nav#navBar ul {
+    padding: 0px;
+    margin: 0px;
+}
+
+nav#navBar ul li {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    list-style-type: none;
+    padding: 10px;
+    border-bottom: 1px solid #fff;
+}
+
+nav#navBar ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Top section! */
+/* Testing with float first! 
+.flex {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid blue;
+} */
+/* section.flex {
+    margin: 10px;
+}
+
+section.flex div h2, p {
+    margin: 0;
+}
+ 
+.leftFloat {
+    float: left;
+    margin-bottom: 10px;
+}
+
+.rightFloat {
+    float: right;
+} 
+header {
+    clear: both;
+}*/
+section.flex {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+section.flex div h2, p {
+    margin: 0;
+}
+.rightFloat {
+    margin-top: 10px;
+}
+
+.leftFloat a {
+    text-decoration: none;
+    color: #000;
+}
+
+.leftFloat h2 {
+    border-bottom: 1px solid black;
+}
+
+/* Heading content! */
+
+.headerPage {
+    background-color: lightblue;
+    position: relative;
+    width: 100%;
+    height: 50vw;
+}
+
+
+
+
+
+
+
+
+
+/* // Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { ... } */
