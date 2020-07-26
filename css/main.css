@@ -101,6 +101,7 @@ section.flex div h2, p {
 .rightFloat {
     margin-top: 20px;
     align-self: flex-end;
+    text-align: center;
 }
 
 .leftFloat a {
