@@ -156,7 +156,7 @@ section.flex div h2, p {
 }
 
 .greaterSign {
-   display: none;   
+    display: none;
 }
 
 .topHeader a {
@@ -201,7 +201,7 @@ section.flex div h2, p {
 }
 
 /* The main content! */
-
+/* The three cards on main! */
 .mainCards {
     text-align: center;
     display: block;
@@ -222,6 +222,7 @@ section.flex div h2, p {
     height: auto;
     border-radius: 30px;
 }
+
 .mainCards a {
     color: rgb(6, 12, 92);
     position: relative;
@@ -229,21 +230,69 @@ section.flex div h2, p {
     left: 30%;
 }
 
+/* Horizontal line of the page! */
 .dashedSection {
-    border: 2px dashed  rgba(0, 0, 0, 0.4);
-    margin: 10px 0;
-
+    border: 2px dashed rgba(0, 0, 0, 0.4);
+    margin: 20px 0;
 }
 
+/* Add more content! */
 
+.sectionDown {
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+}
 
+.sectionDown>img {
+    width: 100%;
+    height: auto;
+    border: 2px solid rgba(0, 0, 0, 0.4);
+    align-self: center;
+}
 
+.secondMainCard {
+    display: none;
+    margin-top: 10px;
+    background-color: transparent;
+}
 
+.rightNavbar h3 {
+    text-align: center;
+}
 
+.rightNavbar {
+    margin: auto;
+}
 
+.rightNavbar ul {
+    padding: 0;
+}
+.rightNavbar h3 {
+    padding: 0;
+    color: rgba(0, 0, 0, 0.4);
+}
 
+.secondNavbar li {
+    list-style-type: square;
+    list-style-position: outside;
+}
 
+.secondNavbar li a {
+    color: rgb(6, 12, 92);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+}
 
+.secondNavbar li a:hover {
+    color: rgba(0, 0, 0, 0.1);
+}
+
+.imgGallery {
+    width: 174px;
+    height: 100px;
+    display: flex;
+    align-content: stretch;
+}
 
 
 
