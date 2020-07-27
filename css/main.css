@@ -329,12 +329,16 @@ section.flex div h2, p {
 }
 
 .imgGallery img {
-    width: 164px;
-    height: 100px;
-    /* width: 100%;
-    height: auto; */
+    /* width: 174px;
+    height: 100px; */
+    width: 100%;
+    height: auto;
     margin: 3px;
     border: 5px double rgba(0, 0, 0, 0.4);
+}
+
+.imgGallery img:nth-child(even) {
+    display: none;
 }
  
 
