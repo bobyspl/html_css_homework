@@ -1,13 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The 2'nd Homework!</title>
+    <style>
+        h1,
+        p {
+            display: inline;
+        }
+form {
+    display: flex;
+}
+        .formAction {
+            display: flex;
+            flex-direction: column;
+        }
+    </style>
 </head>
-<body>
-    ...
 
+<body>
+
+    <div>
+        <h1>Contact us</h1>
+        <p>Feel free to contact us</p>
+    </div>
+    <form action="#" method="get">
+        <div class="formAction">
+            <div>
+                <input type="text" name="" id="name" placeholder="Enter name">
+                <label for="name">Name</label>
+            </div>
+
+            <div>
+                <input type="text" name="name" id="email" placeholder="Enter email">
+                <label for="email">Email</label>
+            </div>
+            <div>
+                <input type="text" name="subject" id="subject" placeholder="Enter subject">
+                <label for="name">Subject</label>
+            </div>
+        </div>
+        <div>
+            <label for="message">Message</label>
+            <textarea name="message" id="message" cols="30" rows="10"></textarea>
+        </div>
+
+
+
+        <input type="submit">
+
+
+    </form>
 
 
 
@@ -22,4 +67,5 @@
 
 
 </body>
+
 </html>
